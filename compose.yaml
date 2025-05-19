@@ -23,7 +23,7 @@ services:
     container_name: terminal.server
     build: "./Server/src"
     ports:
-      - 60003:5006
+      - 60004:5006
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=${ASPNETCORE_URLS}
